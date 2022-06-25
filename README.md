@@ -83,7 +83,7 @@ Ketika menggunakan ini, jangan lupa untuk menutupnya.
 ```
 
 ### Variable
-<p align="justify"> Pada JavaScript setidaknya ada tiga cara untuk mendeklarasikan sebuah <ins>variabel</ins>, yaitu menggunakan keyword <ins>var, let, dan const</ins>. Pada versi ECMAScript 2015 (ES6) dikenalkan deklarasi variabel dengan <mark style="background-color: pink">let dan const</mark> untuk menggantikan `var` yang dinilai kontroversial dan rawan menimbulkan bug.</p>
+<p align="justify"> Pada JavaScript setidaknya ada tiga cara untuk mendeklarasikan sebuah <ins>variabel</ins>, yaitu menggunakan keyword <ins>var, let, dan const</ins>. Pada versi ECMAScript 2015 (ES6) dikenalkan deklarasi variabel dengan let dan const untuk menggantikan var yang dinilai kontroversial dan rawan menimbulkan bug.</p>
 
 ```plantuml
 let lastName;
@@ -109,7 +109,7 @@ console.log(`${nama + umur + asal`})
 ### Data Type
 <p align="justify"> Nilai yang kita tetapkan pada variabel pasti memiliki tipe data. Tipe data merupakan pengklasifikasian data berdasarkan jenisnya. Pada JavaScript terdapat beberapa tipe data sebagai berikut: </p>
 <ul align="justify"><li><b> Undefined </b></br>
-Tipe data ini terbentuk ketika sebuah variabel tidak memiliki `nilai`. Artinya, ketika kita mendeklarasikan `variabel` tanpa menginisialisasikan nilainya, variabel tersebut menjadi `undefined.`</li></ul>
+Tipe data ini terbentuk ketika sebuah variabel tidak memiliki <ins>nilai</ins>. Artinya, ketika kita mendeklarasikan <ins>variabel</ins> tanpa menginisialisasikan nilainya, variabel tersebut menjadi <ins>undefined.</ins></li></ul>
 
 ```plantuml
    let x;
@@ -120,7 +120,7 @@ Tipe data ini terbentuk ketika sebuah variabel tidak memiliki `nilai`. Artinya, 
 | :--     | 
 |undefined |
 
-<p align="justify">Pada contoh kode di atas, kita mendeklarasikan `variabel x`, tetapi kita tidak menginisialisasikan dengan nilai apa pun. Ketika kita memastikan tipe data dengan menggunakan fungsi `typeof()`, ia akan menghasilkan output `undefined`. <b>Fungsi typeof()</b> digunakan untuk memastikan tipe data pada variabel dengan mengembalikan tipe data tersebut dalam bentuk teks.
+<p align="justify">Pada contoh kode di atas, kita mendeklarasikan "variabel x", tetapi kita tidak menginisialisasikan dengan nilai apa pun. Ketika kita memastikan tipe data dengan menggunakan fungsi <ins>typeof()</ins>, ia akan menghasilkan output <ins>undefined</ins>. <b>Fungsi typeof()</b> digunakan untuk memastikan tipe data pada variabel dengan mengembalikan tipe data tersebut dalam bentuk teks.
 </p>
 </br>
 <ul align="justify"><li><b>Numbers</b></br>Nilai dari tipe data number adalah angka. Variabel bertipe data number dituliskan seperti angka pada umumnya:</li></ul>
@@ -226,7 +226,7 @@ console.log(moreGreet);
  </p>
 
 ```plantuml
-const myName = "Luke";
+const myName = "Agus";
 console.log(`Hello, my name is ${myName}.`);
 ```
 
@@ -483,13 +483,13 @@ if(x > 70) {
  </p>
 
 ```plantuml
-let language = "French";
-let greeting = "Selamat Pagi"
+let language = "Jawa";
+let greeting = "Selamat Pagi!"
 
 if(language === "English") {
     greeting = "Good Morning!";
-} else if(language === "French") {
-    greeting = "Bonjour!"
+} else if(language === "Jawa") {
+    greeting = "Sugeng Enjang!"
 } else if(language === "Japanese") {
     greeting = "Ohayou Gozaimasu!"
 }
@@ -498,10 +498,10 @@ console.log(greeting);
 
 |Output : |
 | :--     | 
-| Bonjour! |
+| Sugeng Enjang! |
 
 
-<p align="justify">Pengecekan kondisi akan dilakukan dari statement if paling awal. Sehingga, ketika nilai language adalah “French”, maka pengecekan untuk language === “Japanese” tidak akan dilakukan. Selain if statement di atas, JavaScript juga mendukung ternary operator atau conditional expressions. Dengan ini, kita bisa menuliskan if-else statement hanya dalam satu baris.
+<p align="justify">Pengecekan kondisi akan dilakukan dari statement if paling awal. Sehingga, ketika nilai language adalah “Jawa”, maka pengecekan untuk language === “Japanese” tidak akan dilakukan. Selain if statement di atas, JavaScript juga mendukung ternary operator atau conditional expressions. Dengan ini, kita bisa menuliskan if-else statement hanya dalam satu baris.
  </p>
 
 ```plantuml
@@ -568,15 +568,15 @@ switch (expression) {
  </p>
 
 ```plantuml
-let language = "French";
+let language = "Jawa";
 let greeting = null;
 
 switch (language) {
     case "English":
         greeting = "Good Morning!";
         break;
-    case "French":
-        greeting = "Bonjour!";
+    case "Jawa":
+        greeting = "Sugeng Enjang!";
         break;
     case "Japanese":
         greeting = "Ohayou Gozaimasu!";
@@ -589,7 +589,7 @@ console.log(greeting);
 
 |Output : |
 | :--     | 
-| Bonjour! |
+| Sugeng Enjang! |
 
 ### Loop
 <p align="justify">Ketika menulis program komputer, akan ada situasi di mana kita perlu melakukan hal yang sama berkali-kali. Misalnya kita ingin menampilkan semua nama pengguna yang terdaftar di aplikasi atau sesederhana menampilkan angka 1 sampai 10. Tentunya tidak praktis jika kita menulis kode seperti berikut:
@@ -660,7 +660,7 @@ Agak sulit memang menjelaskan dengan kata-kata, mari kita terjemahkan dalam kode
  </p>
 
 ```plantuml
-let myArray = ["Luke", "Han", "Chewbacca", "Leia"];
+let myArray = ["Aku", "Karo", "Kowe", "Dadi", "De'e"];
 
 for(const arrayItem of myArray) {
     console.log(arrayItem)
@@ -669,7 +669,7 @@ for(const arrayItem of myArray) {
 
 |Output : |
 | :--     | 
-| Luke</br>Han</br>Chewbacca</br>Leia|
+| Aku</br>Karo</br>Kowe</br>Dadi</br>De'e|
 
 ### While and do-while
 <p align="justify">Metode lain untuk melakukan looping adalah dengan statement while. Sama seperti for, instruksi while mengevaluasi ekspresi boolean dan menjalankan kode di dalam blok while ketika bernilai true.</br> 
