@@ -58,16 +58,47 @@ Mengikuti perkembangan teknologi dan banyaknya bisnis yang mulai merambah ke ran
 <p align="justify">Comments adalah Salah satu instruksi yang penting adalah memberi tahu komputer untuk mengabaikan perintah yang kita tulis. Instruksi yang ditulis dalam suatu program tetapi tidak dijalankan oleh komputer.Terdapat dua metode untuk memberikan komentar. Pertama, untuk memberikan komentar pada satu baris saja, kita bisa gunakan tanda dua garis miring (//) di awal baris. Lalu, untuk memberikan komentar lebih dari satu baris kita bisa menggunakan tanda /* sebagai pembuka komentar dan tanda */ untuk penutup komentar. Teks apa pun yang berada di antara tanda tersebut akan dijadikan komentar dan tidak akan dieksekusi.</p>
 
 ```plantuml 
+// ini merupakan komentar 1 baris komentar.
 // console.log("Halo!"); 
+
+
+// komentar
+// console.log('belajar JavaScript');
+
+/*
+Ini merupakan komentar dengan lebih 1 baris
+Teks apapun dibaris ini, akan dijadikan/dianggap sebagai komentar.
+Ketika menggunakan ini, jangan lupa untuk menutupnya.
+*/
+
+/* Komentar lebih dari 1 baris di JavaScript */
+
+// ini komentar.
+
+/* Ini juga */
+
+/*
+ ini juga
+*/
 ```
 
 ### Variable
-<p align="justify"> Pada JavaScript setidaknya ada tiga cara untuk mendeklarasikan sebuah variabel, yaitu menggunakan keyword var, let, dan const. Pada versi ECMAScript 2015 (ES6) dikenalkan deklarasi variabel dengan let dan const untuk menggantikan var yang dinilai kontroversial dan rawan menimbulkan bug.</p>
+<p align="justify"> Pada JavaScript setidaknya ada tiga cara untuk mendeklarasikan sebuah `variabel`, yaitu menggunakan keyword `var, let, dan const.` Pada versi ECMAScript 2015 (ES6) dikenalkan deklarasi variabel dengan `let dan const` untuk menggantikan `var` yang dinilai kontroversial dan rawan menimbulkan bug.</p>
 
 ```plantuml
-  let lastName;
-lastName = "Skywalker";
+let lastName;
+lastName = "Agus";
 console.log(lastName);
+
+var nama = "Agus ";
+let umur = "20 ";
+const asal = "Purwodadi";
+
+console.log(nama + umur + asal)
+// atau
+console.log(`${nama} ${umur} ${asal}`)
+// atau
+console.log(`${nama + umur + asal`})
 ```
 
 |Output : |
@@ -78,7 +109,7 @@ console.log(lastName);
 ### Data Type
 <p align="justify"> Nilai yang kita tetapkan pada variabel pasti memiliki tipe data. Tipe data merupakan pengklasifikasian data berdasarkan jenisnya. Pada JavaScript terdapat beberapa tipe data sebagai berikut: </p>
 <ul align="justify"><li><b> Undefined </b></br>
-Tipe data ini terbentuk ketika sebuah variabel tidak memiliki nilai. Artinya, ketika kita mendeklarasikan variabel tanpa menginisialisasikan nilainya, variabel tersebut menjadi undefined.</li></ul>
+Tipe data ini terbentuk ketika sebuah variabel tidak memiliki `nilai`. Artinya, ketika kita mendeklarasikan `variabel` tanpa menginisialisasikan nilainya, variabel tersebut menjadi `undefined.`</li></ul>
 
 ```plantuml
    let x;
@@ -89,7 +120,7 @@ Tipe data ini terbentuk ketika sebuah variabel tidak memiliki nilai. Artinya, ke
 | :--     | 
 |undefined |
 
-<p align="justify">Pada contoh kode di atas, kita mendeklarasikan variabel x, tetapi kita tidak menginisialisasikan dengan nilai apa pun. Ketika kita memastikan tipe data dengan menggunakan fungsi typeof(), ia akan menghasilkan output undefined. <b>Fungsi typeof()</b> digunakan untuk memastikan tipe data pada variabel dengan mengembalikan tipe data tersebut dalam bentuk teks.
+<p align="justify">Pada contoh kode di atas, kita mendeklarasikan `variabel x`, tetapi kita tidak menginisialisasikan dengan nilai apa pun. Ketika kita memastikan tipe data dengan menggunakan fungsi `typeof()`, ia akan menghasilkan output `undefined`. <b>Fungsi typeof()</b> digunakan untuk memastikan tipe data pada variabel dengan mengembalikan tipe data tersebut dalam bentuk teks.
 </p>
 </br>
 <ul align="justify"><li><b>Numbers</b></br>Nilai dari tipe data number adalah angka. Variabel bertipe data number dituliskan seperti angka pada umumnya:</li></ul>
