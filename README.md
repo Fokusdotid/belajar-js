@@ -1582,18 +1582,18 @@ Data yang disimpan pada array diindeks dan diakses melalui index urutannya.
 <p align="justify">Fungsi merupakan bagian penting dalam bahasa pemrograman. Tanpa sadar, sebenarnya kita sudah menggunakan sebuah fungsi pada contoh kode yang ada sebelumnya. log() pada console.log() merupakan sebuah function yang berguna untuk menampilkan data pada konsol. Tapi sebenarnya apa itu function? Bagaimana ia bisa bekerja?</br>Mirip dengan fungsi pada matematika, fungsi dalam pemrograman juga digunakan untuk menghasilkan output berdasarkan input tertentu.
  </p>
  <p align="center">
-  <img src="https://github.com/yenysyafitry/Dicoding-Belajar-Dasar-Pemrograman-JavaScript/blob/main/20210330132056241306402771d7676d8fe698555a0239.png" width="350" title="hover text">
+  <img src="https://github.com/FokusDotId/Belajar-js/blob/main/20210330132056241306402771d7676d8fe698555a0239.png" width="350" title="hover text">
 </p>
 <p align="justify">Namun, fungsi juga bisa digunakan sebagai blok kode atau prosedur yang dapat digunakan secara berulang. Dalam arti lain, kita dapat berpikir bahwa function merupakan sebuah variabel yang berisi blok logika. Blok logika tersebut akan dieksekusi ketika variabelnya dipanggil.</br>
 Semua fungsi memiliki struktur yang sama. Fungsi dideklarasikan dengan keyword function dan nama fungsinya. Nama fungsi selalu diikuti dengan tanda kurung (parentheses) tanpa spasi, lalu terdapat sepasang kurung kurawal yang berisi logika dari fungsi tersebut.
  </p>
  <p align="center">
-  <img src="https://github.com/yenysyafitry/Dicoding-Belajar-Dasar-Pemrograman-JavaScript/blob/main/202103301322142b4107804a5df13e0d205e7e07fa75fb.png" width="350" title="hover text"> </p>
+  <img src="https://github.com/FokusDotId/Belajar-js/blob/main/202103301322142b4107804a5df13e0d205e7e07fa75fb.png" width="350" title="hover text"> </p>
  <p align="justify">Terkadang di dalam tanda kurung kita membutuhkan sebuah informasi tambahan yang disebut dengan parameter. Parameter merupakan data yang digunakan pada fungsi untuk diproses di dalamnya. Sebagai contoh, fungsi console.log() dapat menerima argument berupa string atau data lain untuk ditampilkan ke konsol.</br>
 Berikut merupakan ilustrasi dari struktur fungsi dengan parameter:
  </p>
   <p align="center">
-  <img src="https://github.com/yenysyafitry/Dicoding-Belajar-Dasar-Pemrograman-JavaScript/blob/main/202103301326359fac677eea8d73a094f207553eae77ed.png" width="350" title="hover text"> </p>
+  <img src="https://github.com/FokusDotId/Belajar-js/blob/main/202103301326359fac677eea8d73a094f207553eae77ed.png" width="350" title="hover text"> </p>
  
  ### Parameter & Argument
  <p align="justify">Di dalam fungsi kita akan banyak bertemu istilah parameter & argument. Penggunaan istilah ini sering kali tertukar, bahkan di kalangan developer.Perbedaan mendasar antara keduanya antara lain:</br>
@@ -2063,7 +2063,7 @@ Bagaimana jika saya ingin membuat objek baru bernama mail2 dengan atribut yang s
 <li>Bagaimana jika saya ingin menambahkan fungsi tambahan pada mail2?</li></ol>
 <p align="justify">Dari sedikit pertanyaan di atas, maka fungsi paradigma OOP dapat menjadi solusi dikarenakan memiliki 4 pilar yang sudah disebutkan sebelumnya, di mana sederhananya kita akan membuat base template dari sebuah object, kemudian dari base tersebut kita dapat meng-instansiasi dalam bermacam bentuk objek. Di bawah ini adalah gambaran di mana Mail adalah base template dan sms, email, mailgroup adalah instansiasi dari Mail.</p>
 
- <p align="justify"><img src="https://github.com/yenysyafitry/Dicoding-Belajar-Dasar-Pemrograman-JavaScript/blob/main/2021033109272405b54a1be326c130d0120c59bff3361a.png" >
+ <p align="justify"><img src="https://github.com/FokusDotId/Belajar-js/blob/main/2021033109272405b54a1be326c130d0120c59bff3361a.png" >
 </p>
 
  <p align="justify">
@@ -2358,7 +2358,7 @@ Seperti yang sempat kita singgung pada awal modul OOP, terdapat empat pilar dala
 Enkapsulasi adalah kondisi di mana attribute atau method di dalam class dibungkus dan bersifat privat. Artinya objek lain tidak bisa mengakses atau mengubah nilai dari property secara langsung. Pada contoh kasus Mail kita tidak bisa langsung mengubah daftar contact, namun kita bisa menambahkannya melalui fungsi saat kirim pesan atau mengambil data tersebut melalui method showAllContacts.
  </p>
 
-<p align="justify"><img src="https://github.com/yenysyafitry/Dicoding-Belajar-Dasar-Pemrograman-JavaScript/blob/main/2021033110152837f7fc725e54468b736219807f4a2b2f.png"></p>
+<p align="justify"><img src="https://github.com/FokusDotId/Belajar-js/blob/main/2021033110152837f7fc725e54468b736219807f4a2b2f.png"></p>
 
 ```plantuml
 class Mail{
@@ -2381,7 +2381,7 @@ Abstraksi dapat dikatakan merupakan penerapan alami dari enkapsulasi. Abstraksi 
 <b>Inheritance</b></br>
 Beberapa objek bisa memiliki beberapa karakteristik atau perilaku yang sama, tetapi mereka bukanlah objek yang sama. Di sinilah inheritance atau pewarisan berperan. SMS dan jenis pesan lainnya memiliki karakteristik umum yang dimiliki juga oleh jenis pesan lainnya, seperti memiliki konten pesan, alamat/nomor pengirim, alamat/nomor penerima, dsb. Maka dari itu Email sebagai objek turunan (subclass) mewarisi semua sifat dan perilaku dari objek induknya (superclass) Mail. Begitu juga dengan objek Whatsapp juga mewarisi sifat dan perilaku yang sama, namun whatsapp bisa membuat grup, mengirim broadcast message sedangkan Email tidak (*misalkan).
  </p>
-<p align="justify"><img src="https://github.com/yenysyafitry/Dicoding-Belajar-Dasar-Pemrograman-JavaScript/blob/main/20210331101812f297bf560a9a74da5feaa334a070eeab.png"></p>
+<p align="justify"><img src="https://github.com/FokusDotId/Belajar-js/blob/main/20210331101812f297bf560a9a74da5feaa334a070eeab.png"></p>
 <p align="justify">Dari contoh di atas, misalkan kita ingin membuat 2 (dua) child class yaitu WhatsApp dan Email. Maka dalam JavaScript cara menuliskan pewarisan terdapat 2 cara, yaitu sebagai berikut:</p>
 
 
@@ -2542,7 +2542,7 @@ Setelah konsep dari OOP kita pelajari, pasti sudah ada gambaran terkait dengan b
 Perlu diketahui bahwasanya sebuah paradigma OOP akan menghasilkan hirarki, di mana semakin besar software yang kita buat maka akan semakin besar dan rumit juga hirarkinya.
  </p>
 
-<p align="justify"><img src="https://github.com/yenysyafitry/Dicoding-Belajar-Dasar-Pemrograman-JavaScript/blob/main/20210331102921eb2aa008d7687e65a8eb5fcd5e77f661.png"></p>
+<p align="justify"><img src="https://github.com/Belajar-js/Belajar-js/blob/main/20210331102921eb2aa008d7687e65a8eb5fcd5e77f661.png"></p>
 
 <p align="justify">Coba bayangkan saja jika kita ingin membuat Child Class bernama PersonalEnterpriseWhatsApp di mana blueprint kelas tersebut kita ingin menggunakan method dan attribute yang ada di PersonalWhatsApp dan BussinessWhatsApp.  Dapat dibayangkan kita akan merombak kembali kelas-kelas parent-nya hanya untuk membuat sebuah kelas baru. Nah, pendekatan object composition di sini berperan.</br></br>
 Object composition adalah prinsip komposisi dari sebuah alur bisnis tanpa perlu melakukan pewarisan dari parent-nya. Prinsip ini didasarkan di mana kita telah mendefinisikan kumpulan-kumpulan perilaku (method/function) sehingga ketika kita ingin membuat alur bisnis lain dengan beberapa perilaku (method) yang sama, kita dapat menggunakan yang sudah ada tanpa melakukan inheritance/pewarisan.</br></br>
@@ -3224,7 +3224,7 @@ Sesuai yang telah dijelaskan pada modul-modul awal, JavaScript mulanya hanya dig
 Salah satu cara termudah untuk menjalankan kode JavaScript di lingkungan browser adalah menggunakan browser itu sendiri. Kita dapat menggunakan developer tools yang disediakan oleh browser. Developer tools bisa kita akses melalui shortcut ctrl + shift + i atau klik kanan -> Inspect Element. Setelah itu pilih tab console. Developer tools ini dilengkapi dengan interpreter yang akan menjalankan kode yang kita tulis.</p>
 
 <p align="center">
-  <img src="https://github.com/yenysyafitry/Dicoding-Belajar-Dasar-Pemrograman-JavaScript/blob/main/2021033023344410b356d490abee14fbef6be09af43201.jpeg"></p>
+  <img src="https://github.com/FokusDotId/Belajar-js/blob/main/2021033023344410b356d490abee14fbef6be09af43201.jpeg"></p>
   
 <p align="justify">Selain browser, terdapat runtime lain yang bisa menjalankan JavaScript, yaitu Node.js. Node.js memungkinkan JavaScript dapat berjalan di berbagai platform, tidak hanya browser. Itulah kenapa JavaScript yang awalnya terkenal sebagai bahasa untuk front-end web, kini mulai merambah juga ke ranah back-end dari website.</br></br>
 Node memberikan akses JavaScript ke seluruh sistem operasi, memungkinkan program JavaScript dapat membaca dan menulis file; mengirim dan menerima data melalui jaringan; serta membuat dan melayani permintaan HTTP. Selanjutnya kita akan fokus untuk pengembangan program JavaScript pada lingkungan Node. Tentunya kita perlu menginstal Node.js terlebih dulu. Penasaran bagaimana caranya? Kita akan bahas pada materi selanjutnya.</br></br>
@@ -3245,27 +3245,27 @@ Untuk bisa menjalankan Node pada perangkat lokal, kita perlu menginstal Node.js.
 <b>Windows</b></br>
 Jika Anda menggunakan sistem operasi Windows, kunjungi situs https://nodejs.org/ lalu unduh Node.js versi LTS.</p>
 <p align="center">
-  <img src="https://github.com/yenysyafitry/Dicoding-Belajar-Dasar-Pemrograman-JavaScript/blob/main/202103302338003b4c7e291c774db3340e0f090cefb3ef.jpeg"></p>
+  <img src="https://github.com/FokusDotId/Belajar-js/blob/main/202103302338003b4c7e291c774db3340e0f090cefb3ef.jpeg"></p>
 
 <p align="justify">Setelah berhasil mengunduh, buka berkas yang baru saja diunduh dan ikuti instruksi yang diberikan.	</p>
 <p align="center">
-  <img src="https://github.com/yenysyafitry/Dicoding-Belajar-Dasar-Pemrograman-JavaScript/blob/main/20210330233822ac64eba0c4d13fa6c8ceca466699677a.jpeg"></p>
+  <img src="https://github.com/FokusDotId/Belajar-js/blob/main/20210330233822ac64eba0c4d13fa6c8ceca466699677a.jpeg"></p>
 <p align="justify">Jika Anda ingin mengubah lokasi instalasi, Anda bisa menentukan lokasi yang Anda inginkan.</p>
 <p align="center">
-  <img src="https://github.com/yenysyafitry/Dicoding-Belajar-Dasar-Pemrograman-JavaScript/blob/main/20210330233840403fa2cd98ab0fa47872670e460b8c85.jpeg"></p>
+  <img src="https://github.com/FokusDotId/Belajar-js/blob/main/20210330233840403fa2cd98ab0fa47872670e460b8c85.jpeg"></p>
 
 <p align="justify">Pada bagian selanjutnya, kita juga dapat melihat komponen apa saja yang akan diterapkan (bundling) dalam pemasangan node.js ini.</p>
 <p align="center">
-  <img src="https://github.com/yenysyafitry/Dicoding-Belajar-Dasar-Pemrograman-JavaScript/blob/main/20210330233904ba06737816dc936710f9aed14471fda9.jpeg"></p>
+  <img src="https://github.com/FokusDotId/Belajar-js/blob/main/20210330233904ba06737816dc936710f9aed14471fda9.jpeg"></p>
   
   <p align="justify">Lalu ikuti instruksi selanjutnya dan tunggu proses instalasi hingga selesai. Jika instalasi selesai dan berhasil, maka pesan seperti ini akan tampil.</p>
- <p align="center"><img src="https://github.com/yenysyafitry/Dicoding-Belajar-Dasar-Pemrograman-JavaScript/blob/main/20210330233925675ea80c3be4c19da83b4d0b322fc9dc.jpeg"></p>
+ <p align="center"><img src="https://github.com/FokusDotId/Belajar-js/blob/main/20210330233925675ea80c3be4c19da83b4d0b322fc9dc.jpeg"></p>
   
   <p align="justify"><b>  Membuat Project JavaScript</b></br>
 Setelah berhasil menginstal text editor dan juga Node.js di komputer, artinya peralatan “perang” kita sudah siap.</br></br>
 Sebenarnya kita bisa membuat berkas atau project JavaScript secara manual dengan membuat folder dan meletakkan berkas berekstensi .js di dalamnya. Namun, untuk memudahkan pengembangan ke depannya, kita akan membuat proyek menggunakan Node Package Manager (NPM). NPM digunakan untuk mengelola package tambahan untuk mempermudah kita mengembangkan aplikasi. Akan ada modul tersendiri yang membahas lebih rinci terkait NPM. Untuk saat ini, kita baru akan menggunakan NPM untuk membuat proyek Node.js.</br></br>
 Pada direktori komputer Anda, buatlah folder baru sebagai folder utama dari proyek yang akan kita buat. Di sini kita beri nama folder tersebut dengan “CoffeeMachine”. Kemudian buka folder tersebut menggunakan Visual Studio Code. Anda dapat melakukannya dengan memilih menu File → Open Folder … → Lalu pilih folder project Anda.</p
-<p align="center"><img src="https://github.com/yenysyafitry/Dicoding-Belajar-Dasar-Pemrograman-JavaScript/blob/main/20210330234708bff755c85f94965d94892d3ce27d1f33.jpeg"></p>
+<p align="center"><img src="https://github.com/FokusDotId/Belajar-js/blob/main/20210330234708bff755c85f94965d94892d3ce27d1f33.jpeg"></p>
 <p align="justify">
 Lalu buka terminal/command prompt pada project tersebut dengan memilih menu Terminal → New Terminal. Ketika terminal muncul jalankan perintah:</p>
 
@@ -3274,15 +3274,15 @@ npm init
 ```
 
 <p align="justify">Selanjutnya Anda akan diberikan beberapa pertanyaan untuk mengisi nilai package name, version, description, dsb. Semua itu merupakan informasi dasar tentang aplikasi yang kita buat.</p>
-<p align="center"><img src="https://github.com/yenysyafitry/Dicoding-Belajar-Dasar-Pemrograman-JavaScript/blob/main/20210330234821e2129a309167e41fcd68ab054946ac1b.jpeg"></p>
+<p align="center"><img src="https://github.com/FokusDotId/Belajar-js/blob/main/20210330234821e2129a309167e41fcd68ab054946ac1b.jpeg"></p>
   <p align="justify">Nilai yang berada di dalam tanda kurung merupakan nilai default. Jika nilai default tersebut sudah cocok dengan yang diharapkan, kita dapat menggunakan nilainya dengan langsung menekan tombol enter. Setelah mengisi seluruh pertanyaan yang diberikan, kita akan diminta untuk melihat dan memverifikasi informasi yang akan disimpan.</p>
- <p align="center"><img src="https://github.com/yenysyafitry/Dicoding-Belajar-Dasar-Pemrograman-JavaScript/blob/main/20210330234842357b0b736b54f1cbeb48212f7fa04a5d.jpeg"></p>
+ <p align="center"><img src="https://github.com/FokusDotId/Belajar-js/blob/main/20210330234842357b0b736b54f1cbeb48212f7fa04a5d.jpeg"></p>
 <p align="justify">
 Jika nilai yang ditampilkan sudah sesuai, tekan tombol enter. Nilai tersebut akan tersimpan dalam berkas package.json. Jika, berkas package.json dibuka, hasilnya terlihat seperti gambar di bawah ini.</p>
-<p align="center"><img src="https://github.com/yenysyafitry/Dicoding-Belajar-Dasar-Pemrograman-JavaScript/blob/main/202103302349129b91e31846b3f8cd3ee7acae9d876211.jpeg"></p>
+<p align="center"><img src="https://github.com/FokusDotId/Belajar-js/blob/main/202103302349129b91e31846b3f8cd3ee7acae9d876211.jpeg"></p>
 <p align="justify">
 Berkas tersebut digunakan untuk menyimpan informasi aplikasi yang kita buat. Untuk membuat berkas package.json, sebenarnya kita dapat membuatnya sendiri layaknya membuat berkas baru pada umumnya. Namun, cara tersebut bukan pendekatan yang baik. Dalam membuat berkas package.json, sebaiknya gunakan perintah npm init pada Terminal di dalam project yang kita buat.</p>
- <p align="center"><img src="https://github.com/yenysyafitry/Dicoding-Belajar-Dasar-Pemrograman-JavaScript/blob/main/20210330235057d6419a63ca8267c4de1a7669d1bbbcc7.gif"></p>
+ <p align="center"><img src="https://github.com/FokusDotId/Belajar-js/blob/main/20210330235057d6419a63ca8267c4de1a7669d1bbbcc7.gif"></p>
 <p align="justify">Pada berkas inilah kita bisa mulai menuliskan kode JavaScript. Sebagai permulaan, cetak sejumlah proses pembuatan kopi dari mesin kopi kita. Tambahkan kode berikut ke dalam file index.js:	</p>
 
 ```plantuml 
@@ -3302,7 +3302,7 @@ node index.js
 ```
 
 <p align="justify">Node.js akan mengeksekusi setiap baris kode yang kita tulis lalu menampilkannya ke konsol terminal.</p>
- <p align="center"><img src="https://github.com/yenysyafitry/Dicoding-Belajar-Dasar-Pemrograman-JavaScript/blob/main/202103302351436547577bcbfdd87d8bf4127417997c83.gif"></p>
+ <p align="center"><img src="https://github.com/FokusDotId/Belajar-js/blob/main/202103302351436547577bcbfdd87d8bf4127417997c83.gif"></p>
 <p align="justify"><b>Run Scripts</b></br>
 Pada berkas package.json terdapat beberapa object yang penting untuk kita perhatikan, salah satunya adalah object scripts. Secara default object tersebut akan terbentuk ketika package.json dibuat menggunakan perintah init. Nilai default dari scripts adalah seperti ini:</p>
 
@@ -3325,7 +3325,7 @@ npm run test
 ```
 
 <p align="justify">Sehingga, pada terminal akan menghasilkan output seperti berikut:</p>
-<p align="center"><img src="https://github.com/yenysyafitry/Dicoding-Belajar-Dasar-Pemrograman-JavaScript/blob/main/202103302353102bac9853ccb0912d2c3a5a3f5c432d81.jpeg"></p>
+<p align="center"><img src="https://github.com/FokusDotId/Belajar-js/blob/main/202103302353102bac9853ccb0912d2c3a5a3f5c432d81.jpeg"></p>
 <p align="justify">Pada object scripts biasanya kita menetapkan script yang sering digunakan secara berkala, seperti menjalankan aplikasi (selama proses development), compiling source code ke tahap produksi, atau melakukan testing.</br></br>
 Untuk menetapkan nilai baru pada object scripts, kita tuliskan nama script sebagai properti. Kemudian tuliskan perintah yang akan dieksekusi sebagai nilai dari properti tersebut. Mari kita buat script baru untuk menjalankan kode dari berkas index.js.</br></br>
 Pada object scripts, tuliskan nilai baru dengan properti bernama start, kemudian tambahkan perintah untuk mengeksekusi berkas sebagai nilainya:</p>
@@ -3338,7 +3338,7 @@ Pada object scripts, tuliskan nilai baru dengan properti bernama start, kemudian
 ```
 
 <p align="justify">Kini kita bisa menjalankan program dengan perintah npm run start seperti di bawah ini</p>
-<p align="center"><img src="https://github.com/yenysyafitry/Dicoding-Belajar-Dasar-Pemrograman-JavaScript/blob/main/20210330235401d8067fab72ef881f9f39997d80af2808.jpeg"></p>
+<p align="center"><img src="https://github.com/FokusDotId/Belajar-js/blob/main/20210330235401d8067fab72ef881f9f39997d80af2808.jpeg"></p>
 
 ```plantuml
   Kategori: Set Environment
