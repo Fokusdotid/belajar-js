@@ -232,7 +232,7 @@ console.log(`Hello, my name is ${myName}.`);
 
 |Output : |
 | :--     | 
-| Hello, my name is Luke. |
+| Hello, my name is Agus. |
 
 <p align="justify"> Perhatikan bahwa untuk mendefinisikan string template, Anda perlu menggunakan backticks (`), biasanya terletak di keyboard di sebelah kiri tombol 1). Di dalam string letakkan variabel yang ingin dimasukkan ke dalam placeholder ${myName}.
  </p>
@@ -443,7 +443,7 @@ console.log(!(a < 15 && b > 10)); // !(true && true) -> !(true) -> false
  </p>
  
  <p align="center">
-  <img src="https://github.com/yenysyafitry/Dicoding-Belajar-Dasar-Pemrograman-JavaScript/blob/main/2021032614212952aba0a5b1a44e18d7e5234517c4f671.png" width="350" title="hover text">
+  <img src="https://github.com/FokusDotId/Belajar-js/blob/main/2021032614212952aba0a5b1a44e18d7e5234517c4f671.png" width="350" title="hover text">
 </br>Flowchart di atas jika diterjemahkan menjadi kode, akan menjadi seperti berikut:
 </p>
 
@@ -748,11 +748,11 @@ Lakukan pengujian pada kode yang Anda tulis contohnya dengan menggunakan console
  *  - age: bertipe data number, dengan nilai umur Anda.
  *  - isMarried: bertipe data boolean, dengan bebas Anda tentukan.
  */
-let firstName = "Yenni";
+let firstName = "Aguz";
 console.log(typeof(firstName));
-let lastName = "Syafitri";
+let lastName = "Familia";
 console.log(typeof(lastName));
-let age = 26;
+let age = 20;
 console.log(typeof(age));
 let isMarried = false;
 console.log(typeof(isMarried))
@@ -848,9 +848,9 @@ let object = {key1: "value1", key2: "value2", key3: "value3"}
 
 ```plantuml
 const user = {
-    firstName: "Luke",
-    lastName: "Skywalker",
-    age: 19,
+    firstName: "Aguz",
+    lastName: "Familia",
+    age: 20,
     isJedi: true,
 };
 console.log(`Halo, nama saya ${user.firstName} ${user.lastName}`);
@@ -859,18 +859,18 @@ console.log(`Umur saya ${user.age} tahun`);
 
 |Output : |
 | :--     | 
-| Halo, nama saya Luke Skywalker</br>Umur saya 19 tahun |
+| Halo, nama saya Aguz Familia</br>Umur saya 20 tahun |
 
 <p align="justify">Untuk mengakses key yang memiliki spasi atau karakter khusus lainnya maka kita perlu menggunakan bracket seperti di atas.
  </p>
 
 ```plantuml
 const user = {
-    firstName: "Luke",
-    lastName: "Skywalker",
-    age: 19,
+    firstName: "Aguz",
+    lastName: "Familia",
+    age: 20,
     isJedi: true,
-    "home world": "Tattooine"
+    "home world": "Purwodadi"
 };
 console.log(`Halo, nama saya ${user.firstName} ${user.lastName}`);
 console.log(`Umur saya ${user.age} tahun`);
@@ -879,7 +879,7 @@ console.log(`Saya berasal dari ${user["home world"]}`);
 
 |Output : |
 | :--     | 
-| Halo, nama saya Luke Skywalker</br>Umur saya 19 tahun</br>Saya berasal dari Tattooine |
+| Halo, nama saya Aguz Familia</br>Umur saya 20 tahun</br>Saya berasal dari Purwodadi |
 
 
 <p align="justify">Setelah mempelajari bagaimana membuat object dan menampilkan property di dalamnya, selanjutnya kita akan memodifikasi sebuah object. Untuk mengubah nilai properti di dalam object kita gunakan assignment operator (=).
