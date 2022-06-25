@@ -733,7 +733,6 @@ for(let i = 1; i <= 5; i=1) {
 <p align="justify">Dapatkah Anda menemukan apa yang salah dari kode di atas sehingga terjadi infinite loop? Jawabannya adalah karena variabel i selalu bernilai 1. Alhasil, kondisi i <= 5 akan selalu bernilai true yang mengakibatkan aplikasi akan terus mencetak 1 ke konsol sehingga mengalami crash.
  </p>
 
-<!---
 ### Kuis Coding: Variabel dan Tipe Data
 <p align="justify">Untuk menguji kemampuan praktikal Anda dalam memahami materi variabel dan tipe data di JavaScript, silakan selesaikan kuis berikut. Sebelum Anda mengerjakan kuis, ada beberapa hal yang perlu Anda perhatikan.</br> Mohon untuk membaca secara seksama perintah, kriteria, atau soal pada komentar kode yang diberi tanda TODO.  </br>
 Lakukan pengujian pada kode yang Anda tulis contohnya dengan menggunakan console.log() untuk memastikan hasil sesuai dengan yang Anda harapkan. Gunakan tombol Jalankan.
@@ -1336,7 +1335,17 @@ console.log("Nilai b: " + b);
 | :--     | 
 | Sebelum swap</br>Nilai a: 1</br>Nilai b: 2</br>Setelah swap</br>Nilai a: 2</br>Nilai b: 1 |
 
-<p align="justify">Ketika melakukan destructuring array, tetapi terdapat variabel yang posisinya tidak dapat terjangkau oleh array, maka variabel tersebut akan bernilai undefined. Contohnya:
+<p align="justify">Ketika melakukan destructuring array, tetapi terdapat variabel yang posisinya tidak dapat ter
+
+
+
+
+
+
+
+
+
+ngkau oleh array, maka variabel tersebut akan bernilai undefined. Contohnya:
  </p>
 
 ```plantuml
@@ -3626,4 +3635,3 @@ try {
 | :--     | 
 |Awal blok try</br>Akhir blok try</br>Akan tetap dieksekusi|
 
---->
