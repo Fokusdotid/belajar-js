@@ -83,7 +83,7 @@ Ketika menggunakan ini, jangan lupa untuk menutupnya.
 ```
 
 ### Variable
-<p align="justify"> Pada JavaScript setidaknya ada tiga cara untuk mendeklarasikan sebuah <ins>variabel</ins>, yaitu menggunakan keyword `var, let, dan const.` Pada versi ECMAScript 2015 (ES6) dikenalkan deklarasi variabel dengan `let dan const` untuk menggantikan `var` yang dinilai kontroversial dan rawan menimbulkan bug.</p>
+<p align="justify"> Pada JavaScript setidaknya ada tiga cara untuk mendeklarasikan sebuah <ins>variabel</ins>, yaitu menggunakan keyword <ins>var, let, dan const</ins>. Pada versi ECMAScript 2015 (ES6) dikenalkan deklarasi variabel dengan <mark style="background-color: pink">let dan const</mark> untuk menggantikan `var` yang dinilai kontroversial dan rawan menimbulkan bug.</p>
 
 ```plantuml
 let lastName;
